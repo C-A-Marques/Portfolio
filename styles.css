@@ -5,10 +5,13 @@
     --textwhite: hsl(0, 0%, 90%);
     --project-pic-size: 14rem;
     --skill-pic-size: 5rem;
-    --background-skills: hsl(210, 75%, 15%);
+    --background-skills: hsl(207, 38%, 49%);
     --socials-pic-size: 2rem;
 }
 
+html {
+    scroll-behavior: smooth;
+}
 body {
     background-color: var(--darkblue);
     color: var(--textwhite);
