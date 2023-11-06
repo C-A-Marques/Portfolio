@@ -149,6 +149,15 @@ main {
     background-color: var(--background-skills);
 }
 
+.cSharp-and-dotNET {
+    grid-area: skill6;
+    background-color: var(--background-skills);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+}
+
 .skill-slot{
     margin: 2rem;
     padding: 2rem;
@@ -202,6 +211,17 @@ main {
 .nodejs-img {
     width: 8rem;
     height: 5rem;
+}
+
+.cSharp-img {
+    width: 8rem;
+    height: 7rem;
+    margin: 1rem;
+}
+
+.dotNET-img {
+    width: 8rem;
+    height: 7rem;
 }
 
 .project-container{
